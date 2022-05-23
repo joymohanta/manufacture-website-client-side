@@ -10,11 +10,13 @@ const Review = () => {
       .then((data) => setReviews(data));
   }, []);
   return (
-    <div>
-      <div className="bg-secondary pt-10 pb-28">
-        <h2 className="text-center font-bold text-3xl">OUR CLIENTS REVIEWS</h2>
+    <div className="parent_review">
+      <div>
+        <h2 className="text-center bg-secondary pt-10 pb-28 font-bold text-3xl">
+          OUR CLIENTS REVIEWS
+        </h2>
       </div>
-      <div className="review">
+      <div className="review mx-auto">
         {reviews.map((review) => (
           <ReviewCard key={review._id} review={review}></ReviewCard>
         ))}

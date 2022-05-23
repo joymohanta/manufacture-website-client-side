@@ -1,0 +1,11 @@
+.per_review{
+    border: 1px solid white;
+    background-color: white;
+}
+.per_review img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
