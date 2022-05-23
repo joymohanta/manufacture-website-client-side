@@ -1,0 +1,19 @@
+.bar{
+    border: 2px solid #FF6700;
+    margin: 0 auto;
+    width: 100px;
+}
+.summary{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    
+}
+.per-summary{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 0 auto;
+
+}

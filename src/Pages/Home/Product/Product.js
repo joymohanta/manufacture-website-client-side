@@ -28,7 +28,7 @@ const Product = ({ tool }) => {
               Minimum Order: {minimumOrderQuantity}{" "}
             </h3>
           </div>
-          <button class="btn btn-secondary btn-sm">Purchase</button>
+          <button className="btn btn-secondary btn-sm">Purchase</button>
         </div>
       </div>
     </div>
