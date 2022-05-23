@@ -44,8 +44,8 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl text-white">
-          DRILL'S WORLD
+        <a className="btn btn-ghost normal-case text-3xl text-white">
+          NEW DRILL'S WORLD
         </a>
       </div>
       <div className="navbar-end hidden lg:flex text-white  font-semibold">

@@ -12,41 +12,54 @@ const BusinessMoral = () => {
       <div className="bar"></div>
       <div className="summary text-center pb-16">
         <div className="per-summary">
-          <i class="fa-solid fa-flag-checkered fa-3x text-primary"></i>
-          <h1 className="text-3xl font-bold pt-4">
-            <CountUp start={0} end={89} delay={5} duration={5}></CountUp>
+          <i class="fa-solid fa-screwdriver-wrench fa-4x text-primary"></i>
+          <h1 className="text-4xl font-bold pt-4">
+            <CountUp start={0} end={80} delay={5} duration={5}></CountUp>+
           </h1>
           <p className="text-primary font-semibold">
-            <small>Countries</small>
+            <small>Total tools</small>
           </p>
         </div>
         <div className="per-summary">
-          <i class="fa-solid fa-laptop-file fa-3x text-primary"></i>
-          <h3 className="text-3xl font-bold pt-4">
-            <CountUp start={0} end={500} delay={5} duration={8}></CountUp>+
+          <i class="fa-solid fa-chart-pie fa-4x text-primary"></i>
+          <h3 className="text-4xl font-bold pt-4">
+            <CountUp start={0} end={110} delay={5} duration={8}></CountUp>M+
           </h3>
           <p className="text-primary font-semibold">
-            <small>Complete Projects</small>
+            <small>Annual revenue</small>
           </p>
         </div>
         <div className="per-summary">
-          <i class="fa-solid fa-users fa-3x text-primary"></i>
-          <h3 className="text-3xl font-bold pt-4">
-            <CountUp start={0} end={1200} delay={5} duration={15}></CountUp>+
+          <i class="fa-solid fa-users fa-4x text-primary"></i>
+          <h3 className="text-4xl font-bold pt-4">
+            <CountUp start={0} end={150} delay={5} duration={10}></CountUp>+
           </h3>
           <p className="text-primary font-semibold">
-            <small>Happy Clients</small>
+            <small>Clients we serve</small>
           </p>
         </div>
         <div className="per-summary">
-          <i class="fa-solid fa-thumbs-up fa-3x text-primary"></i>
-          <h3 className="text-3xl font-bold pt-4">
-            <CountUp start={0} end={700} delay={5} duration={10}></CountUp>+
+          <i class="fa-solid fa-thumbs-up fa-4x text-primary"></i>
+          <h3 className="text-4xl font-bold pt-4">
+            <CountUp start={0} end={59} delay={5} duration={5}></CountUp>K+
           </h3>
           <p className="text-primary font-semibold">
-            <small>Feedbacks</small>
+            <small>Reviews</small>
           </p>
         </div>
+      </div>
+      <div className="contact">
+        <div className="contact_align">
+          <h3 className="font-bold text-2xl text-primary">
+            Have any question about us?
+          </h3>
+          <p className="font-semibold">
+            <small>Don't hesitate to contact with us</small>
+          </p>
+        </div>
+        <a id="button" className="contact_align" href="#">
+          Contact
+        </a>
       </div>
     </div>
   );

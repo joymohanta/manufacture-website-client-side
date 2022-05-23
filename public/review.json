@@ -1,0 +1,23 @@
+[
+    {
+        "_id": 1,
+        "name": "Luke Evans",
+        "ratings": "5.00",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam",
+        "img": "https://media.istockphoto.com/photos/highspeed-drill-picture-id159758724?b=1&k=20&m=159758724&s=170667a&w=0&h=6SRYBtxz3MNgg2xUf7zDZnTUlFuiNRLP3AR311ha3dE="
+    },
+    {
+        "_id": 2,
+        "name": "Chrish Tylor",
+        "ratings": "5.00",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam",
+        "img": "https://images.pexels.com/photos/162534/grinder-hitachi-power-tool-flexible-162534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+        "_id": 3,
+        "name": "Marrie Luie",
+        "ratings": "5.00",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam",
+        "img": "https://media.istockphoto.com/photos/cordless-drill-battery-drill-picture-id599271350?k=20&m=599271350&s=612x612&w=0&h=2qaAAwqinlwEfGAuZsNcpMOsHWhhdk0emzz71ey7X0Y="
+    }
+]
