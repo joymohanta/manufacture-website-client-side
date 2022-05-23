@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+/* .v_bar{
+    border-right: 1px solid grey;
+    height: 150px;
+    margin-left: 360px;
+} */
+.text:hover{
+    color: #FF6700;
+}

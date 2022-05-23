@@ -12,7 +12,7 @@ const BusinessMoral = () => {
       <div className="bar"></div>
       <div className="summary text-center pb-16">
         <div className="per-summary">
-          <i class="fa-solid fa-screwdriver-wrench fa-4x text-primary"></i>
+          <i className="fa-solid fa-screwdriver-wrench fa-4x text-primary"></i>
           <h1 className="text-4xl font-bold pt-4">
             <CountUp start={0} end={80} delay={7} duration={5}></CountUp>+
           </h1>
@@ -21,7 +21,7 @@ const BusinessMoral = () => {
           </p>
         </div>
         <div className="per-summary">
-          <i class="fa-solid fa-chart-pie fa-4x text-primary"></i>
+          <i className="fa-solid fa-chart-pie fa-4x text-primary"></i>
           <h3 className="text-4xl font-bold pt-4">
             <CountUp start={0} end={110} delay={7} duration={8}></CountUp>M+
           </h3>
@@ -30,7 +30,7 @@ const BusinessMoral = () => {
           </p>
         </div>
         <div className="per-summary">
-          <i class="fa-solid fa-users fa-4x text-primary"></i>
+          <i className="fa-solid fa-users fa-4x text-primary"></i>
           <h3 className="text-4xl font-bold pt-4">
             <CountUp start={0} end={150} delay={7} duration={10}></CountUp>+
           </h3>
@@ -39,7 +39,7 @@ const BusinessMoral = () => {
           </p>
         </div>
         <div className="per-summary">
-          <i class="fa-solid fa-thumbs-up fa-4x text-primary"></i>
+          <i className="fa-solid fa-thumbs-up fa-4x text-primary"></i>
           <h3 className="text-4xl font-bold pt-4">
             <CountUp start={0} end={59} delay={7} duration={5}></CountUp>K+
           </h3>

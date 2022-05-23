@@ -12,11 +12,11 @@ const ReviewCard = ({ review }) => {
       <h2 className="font-bold pl-3"> {name} </h2>
       <h2 className="font-bold pl-3"> {ratings} </h2>
       <h2 className="pl-2 text-secondary">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
+        <i className="fa-solid fa-star"></i>
+        <i className="fa-solid fa-star"></i>
+        <i className="fa-solid fa-star"></i>
+        <i className="fa-solid fa-star"></i>
+        <i className="fa-solid fa-star"></i>
       </h2>
     </div>
   );
