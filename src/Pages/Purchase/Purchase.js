@@ -11,7 +11,6 @@ const Purchase = () => {
 
   useEffect(() => {
     const url = `http://localhost:5000/tool/${id}`;
-    // console.log(toolsId);
     fetch(url)
       .then((res) => res.json())
       .then((data) => setTool(data));
