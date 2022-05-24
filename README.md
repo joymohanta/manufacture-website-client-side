@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# NEW DRILL'S WORLD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site link: []
 
-## Available Scripts
+## USED FEATURES
 
-In the project directory, you can run:
+Tachnical Features are
+
+- React Router
+- React Firebase Hooks
+- React Countup
+- TailwindCSS & Component Library Daisy UI
 
 ### `npm start`
 

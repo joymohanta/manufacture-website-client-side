@@ -3,28 +3,28 @@
         "_id": 1,
         "name": "Luke Evans",
         "ratings": "5.00",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam",
+        "description": "I love this tools house. I will recommand it for all level user. They provide a good tools",
         "img": "https://i.ibb.co/hY672j8/Screenshot-1.jpg"
     },
     {
         "_id": 2,
         "name": "Chrish Tylor",
         "ratings": "5.00",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam",
+        "description": "The main attraction of this market is their repair system which makes me fascinated",
         "img": "https://i.ibb.co/2WcZWX8/Screenshot-3.jpg"
     },
     {
         "_id": 3,
         "name": "Jonathan Tylor",
         "ratings": "5.00",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam",
+        "description": "As a professional user I like their products so far. Their tools contain well durability",
         "img": "https://i.ibb.co/hFJmbKr/Screenshot-4.jpg"
     },
     {
         "_id": 4,
         "name": "Marrie Luie",
         "ratings": "5.00",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam",
+        "description": "It is my first and last choice for the tools world. I just love their all new user product",
         "img": "https://i.ibb.co/h2LjYvr/Screenshot-2.jpg"
     }
 ]
