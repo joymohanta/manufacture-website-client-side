@@ -17,6 +17,7 @@ const Purchase = () => {
     const order = {
       client: user.displayName,
       email: user.email,
+      price: tool.price,
       productName: tool.name,
       address: event.target.address.value,
       phone: event.target.phone.value,
@@ -72,6 +73,7 @@ const Purchase = () => {
           <p className="mt-4"> {tool.description} </p>
         </div>
         <div>
+          <p className="font-bold">Price per item : ${tool.price}</p>
           <p className="font-bold">
             Available product :{" "}
             <span id="available-item">{tool.availableQuantity}</span>

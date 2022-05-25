@@ -15,6 +15,29 @@ const MyOrder = () => {
   return (
     <div>
       <h2>My orders: {orders.length} </h2>
+      <div className="overflow-x-auto mt-6">
+        <table className="table w-full">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Product Name</th>
+              <th>Price Per Item</th>
+              <th>Total Product</th>
+              <th>Payment</th>
+            </tr>
+          </thead>
+          <tbody>
+            {orders.map((order, index) => (
+              <tr>
+                <th>{index + 1}</th>
+                <td>{order.productName}</td>
+                <td>{order.price}</td>
+                <td>{order.totalQuantity}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };
