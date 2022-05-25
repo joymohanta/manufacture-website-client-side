@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import auth from "../../firebase.init";
 import "./Purchase.css";
@@ -10,6 +10,7 @@ const Purchase = () => {
   const [user, loading, error] = useAuthState(auth);
   const [tool, setTool] = useState({});
   const [inputError, setInputError] = useState();
+  const navigate = useNavigate();
 
   const handleComplete = (event) => {
     event.preventDefault();
@@ -33,6 +34,7 @@ const Purchase = () => {
       .then((data) => {
         console.log(data);
         toast.success("Your Order Placed Successfully");
+        navigate("/");
       });
     const totalQuantity = event.target.quantity.value;
     const quantityNum = parseInt(totalQuantity);
