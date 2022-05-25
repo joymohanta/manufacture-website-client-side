@@ -9,6 +9,8 @@ import SignUp from "./Pages/Login/SignUp";
 import Purchase from "./Pages/Purchase/Purchase";
 import Navbar from "./Pages/Shared/Navbar/Navbar";
 import NotFound from "./Pages/Shared/NotFound";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -38,6 +40,7 @@ function App() {
         ></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
 }
