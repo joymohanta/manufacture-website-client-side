@@ -13,7 +13,7 @@ const Tools = () => {
       <h2 className="mt-6 py-8 bg-primary text-center text-2xl font-bold text-secondary">
         OUR TOOLS
       </h2>
-      <div className="grid grid-cols-3 gap-x-1 pb-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-1 pb-6">
         {tools.map((tool) => (
           <Product key={tool._id} tool={tool}></Product>
         ))}

@@ -2,6 +2,7 @@ import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { toast } from "react-toastify";
 import auth from "../../firebase.init";
+import "./MyProfile.css";
 
 const MyProfile = () => {
   const [user, loading, error] = useAuthState(auth);
@@ -31,7 +32,7 @@ const MyProfile = () => {
   return (
     <div>
       <h2 className="text-primary font-semibold">Welcome to your Profile</h2>
-      <div className="flex justify-evenly items-center mt-20">
+      <div className="flex justify-evenly items-center mt-20 direction">
         <div className="">
           <h2 className="text-primary text-2xl font-bold">
             {user.displayName}

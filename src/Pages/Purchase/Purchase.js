@@ -67,13 +67,13 @@ const Purchase = () => {
         PURCHASE : {tool.name}
       </h2>
       <div className="bar"></div>
-      <div className="mt-20 mb-8 flex justify-evenly items-center text-center">
+      <div className="mt-20 mb-8 flex justify-evenly items-center purchase text-center">
         <div className="item_detail">
           <img src={tool.img} alt="" />
           <p className="mt-4"> {tool.description} </p>
         </div>
         <div>
-          <p className="font-bold">Price per item : ${tool.price}</p>
+          <p className="font-bold price">Price per item : ${tool.price}</p>
           <p className="font-bold">
             Available product :{" "}
             <span id="available-item">{tool.availableQuantity}</span>

@@ -43,3 +43,16 @@
 #button:hover{
     background-color: #ba5613; 
 }
+
+
+@media screen and (max-width: 576px){
+    .summary{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    
+    }
+    .contact{
+        width: 70%;
+    }
+}

@@ -1,12 +1,7 @@
-.item_detail{
-    width: 400px;
-}
 @media screen and (max-width: 576px){
-    .purchase{
+    .direction{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-    }
-    .price{
-        margin-top: 50px;
+        margin-left: 100px;
     }
 }

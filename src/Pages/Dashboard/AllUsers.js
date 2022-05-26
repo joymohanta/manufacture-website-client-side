@@ -2,6 +2,7 @@ import React from "react";
 import { useQuery } from "react-query";
 import Loading from "../Shared/Loading";
 import UserTable from "./UserTable";
+import "./AllUsers.css";
 
 const AllUsers = () => {
   const {
