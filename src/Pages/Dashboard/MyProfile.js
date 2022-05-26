@@ -39,6 +39,9 @@ const MyProfile = () => {
           <h3 className="text-primary font-bold"> {user.email} </h3>
         </div>
         <div>
+          <h2 className="text-primary font-bold text-xl mb-4">
+            Put Your Detail Here
+          </h2>
           <form onSubmit={handleSubmit}>
             <div className=" w-96 bg-base-100 ">
               <input

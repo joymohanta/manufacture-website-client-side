@@ -19,6 +19,8 @@ import AddProduct from "./Pages/Dashboard/AddProduct";
 import ManageAllOrders from "./Pages/Dashboard/ManageAllOrders";
 import RequireAdmin from "./Pages/Login/RequireAdmin";
 import About from "./Pages/About/About";
+import Footer from "./Pages/Shared/Footer/Footer";
+import Payment from "./Pages/Dashboard/Payment";
 
 function App() {
   return (
@@ -42,6 +44,7 @@ function App() {
           <Route index element={<MyProfile></MyProfile>}></Route>
           <Route path="myorder" element={<MyOrder></MyOrder>}></Route>
           <Route path="addreview" element={<AddReview></AddReview>}></Route>
+          <Route path="payment/:id" element={<Payment></Payment>}></Route>
           <Route
             path="allusers"
             element={
@@ -78,6 +81,7 @@ function App() {
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <ToastContainer />
+      <Footer></Footer>
     </div>
   );
 }

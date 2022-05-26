@@ -67,7 +67,7 @@ const Purchase = () => {
         PURCHASE : {tool.name}
       </h2>
       <div className="bar"></div>
-      <div className="mt-20 flex justify-evenly items-center text-center">
+      <div className="mt-20 mb-8 flex justify-evenly items-center text-center">
         <div className="item_detail">
           <img src={tool.img} alt="" />
           <p className="mt-4"> {tool.description} </p>

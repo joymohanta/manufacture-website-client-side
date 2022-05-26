@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
+import { Link } from "react-router-dom";
 import auth from "../../firebase.init";
 
 const MyOrder = () => {
@@ -12,6 +13,23 @@ const MyOrder = () => {
         .then((data) => setOrders(data));
     }
   }, [user]);
+
+  const handleDelete = (id) => {
+    const proceed = window.confirm("Are you sure?");
+    if (proceed) {
+      const url = `http://localhost:5000/order/${id}`;
+      fetch(url, {
+        method: "DELETE",
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          // console.log(data);
+          const remaining = orders.filter((order) => order._id !== id);
+          setOrders(remaining);
+        });
+    }
+  };
+
   return (
     <div>
       <h2>My orders: {orders.length} </h2>
@@ -33,6 +51,28 @@ const MyOrder = () => {
                 <td>{order.productName}</td>
                 <td>{order.price}</td>
                 <td>{order.totalQuantity}</td>
+                <td>
+                  {order.price && !order.paid && (
+                    <Link to={`/dashboard/payment/${order._id}`}>
+                      {" "}
+                      <button className="btn btn-xs btn-success">
+                        Pay
+                      </button>{" "}
+                    </Link>
+                  )}
+                  {(order.price && order.paid && (
+                    <span className="text-success">Paid</span>
+                  )) || (
+                    <button
+                      onClick={() => {
+                        handleDelete(order._id);
+                      }}
+                      className="btn btn-xs btn-accent"
+                    >
+                      delete
+                    </button>
+                  )}
+                </td>
               </tr>
             ))}
           </tbody>
