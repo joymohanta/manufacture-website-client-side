@@ -13,7 +13,7 @@ const AddProduct = () => {
       img: event.target.img.value,
     };
     console.log(itemDetail);
-    fetch("http://localhost:5000/tool", {
+    fetch("https://secure-bayou-16364.herokuapp.com/tool", {
       method: "POST",
       headers: {
         "content-type": "application/json",

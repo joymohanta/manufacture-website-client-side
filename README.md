@@ -10,6 +10,8 @@ Tachnical Features are
 - React Firebase Hooks
 - React Countup
 - TailwindCSS & Component Library Daisy UI
+- React Query
+- React hook Form
 
 ### `npm start`
 

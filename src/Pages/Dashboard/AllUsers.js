@@ -9,7 +9,9 @@ const AllUsers = () => {
     isLoading,
     refetch,
   } = useQuery("allusers", () =>
-    fetch("http://localhost:5000/user").then((res) => res.json())
+    fetch("https://secure-bayou-16364.herokuapp.com/user").then((res) =>
+      res.json()
+    )
   );
   if (isLoading) {
     return <Loading></Loading>;

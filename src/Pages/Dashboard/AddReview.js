@@ -14,7 +14,7 @@ const AddReview = () => {
       img: event.target.img.value,
     };
     console.log(feedback);
-    fetch("http://localhost:5000/review", {
+    fetch("https://secure-bayou-16364.herokuapp.com/review", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -33,7 +33,7 @@ const AddReview = () => {
         Please Leave Your Feedback Here
       </h2>
 
-      <form onSubmit={handleSubmit}>
+      <form className="flex justify-center mt-10" onSubmit={handleSubmit}>
         <div className=" w-96 bg-base-100 ">
           <input
             type="text"

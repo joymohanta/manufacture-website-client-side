@@ -15,7 +15,7 @@ const MyProfile = () => {
       linkedIn: event.target.linkedin.value,
     };
     console.log(detail);
-    fetch(`http://localhost:5000/profile`, {
+    fetch(`https://secure-bayou-16364.herokuapp.com/profile`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

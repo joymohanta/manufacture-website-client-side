@@ -8,7 +8,9 @@ const MyOrder = () => {
   const [user] = useAuthState(auth);
   useEffect(() => {
     if (user) {
-      fetch(`http://localhost:5000/order?email=${user.email}`)
+      fetch(
+        `https://secure-bayou-16364.herokuapp.com/order?email=${user.email}`
+      )
         .then((res) => res.json())
         .then((data) => setOrders(data));
     }
@@ -17,7 +19,7 @@ const MyOrder = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      const url = `http://localhost:5000/order/${id}`;
+      const url = `https://secure-bayou-16364.herokuapp.com/order/${id}`;
       fetch(url, {
         method: "DELETE",
       })
