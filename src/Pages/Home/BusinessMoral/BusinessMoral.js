@@ -4,11 +4,13 @@ import CountUp from "react-countup";
 
 const BusinessMoral = () => {
   return (
-    <div>
-      <h3 className="font-extrabold text-center pt-10 text-3xl">
+    <div className="pb-20">
+      <h3 className="font-extrabold text-center mt-20 text-3xl">
         MILLIONS BUSINESS TRUST US
       </h3>
-      <p className="text-center pb-6">CHECK OUR USERS EXPECTATION</p>
+      <p className="text-center text-primary font-semibold pb-6">
+        CHECK OUR USERS EXPECTATION
+      </p>
       <div className="bar"></div>
       <div className="summary text-center pb-16">
         <div className="per-summary">

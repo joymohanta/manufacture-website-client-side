@@ -7,7 +7,7 @@ const DrillDetail = () => {
         TOOLS PROS
       </h2>
       <img
-        className="ml-28"
+        className="mx-auto"
         src="https://mobileimages.lowes.com/productimages/b253704c-8181-4708-9f4c-9b79b256e1d0/05178975.jpg"
         alt=""
       />
