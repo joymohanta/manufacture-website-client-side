@@ -1,0 +1,11 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    width: 80%;
+    margin: auto;
+}
+.section{
+    border: 1px solid white;
+    margin-bottom: 100px;
+}

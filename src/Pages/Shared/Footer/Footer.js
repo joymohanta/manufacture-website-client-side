@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-neutral footer">
+      <div id="#contact" className="bg-neutral footer">
         <div className="text-white">
           <h2 className="text-white text-3xl font-bold pb-6">DRILL'S MARKET</h2>
           <p className="pb-4">
