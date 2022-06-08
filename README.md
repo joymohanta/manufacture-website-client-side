@@ -12,6 +12,13 @@ Tachnical Features are
 - TailwindCSS & Component Library Daisy UI
 - React Query
 - React hook Form
+- Strip payment gateway
+
+## Admin User Try
+
+user name:
+robibarmon009@gmail.com\
+Password: 12345robi12345
 
 ### `npm start`
 
