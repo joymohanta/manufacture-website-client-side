@@ -9,7 +9,7 @@ const MyOrder = () => {
   useEffect(() => {
     if (user) {
       fetch(
-        `https://secure-bayou-16364.herokuapp.com/order?email=${user.email}`
+        `https://manufacture-website.onrender.com/order?email=${user.email}`
       )
         .then((res) => res.json())
         .then((data) => setOrders(data));
@@ -19,7 +19,7 @@ const MyOrder = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure?");
     if (proceed) {
-      const url = `https://secure-bayou-16364.herokuapp.com/order/${id}`;
+      const url = `https://manufacture-website.onrender.com/order/${id}`;
       fetch(url, {
         method: "DELETE",
       })

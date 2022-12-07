@@ -12,7 +12,7 @@ const CheckoutForm = ({ order }) => {
   const { _id, price, totalQuantity, client, email } = order;
   const totalPrice = parseInt(price) * parseInt(totalQuantity);
   useEffect(() => {
-    fetch("https://secure-bayou-16364.herokuapp.com/create-payment-intent", {
+    fetch("https://manufacture-website.onrender.com/create-payment-intent", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -78,7 +78,7 @@ const CheckoutForm = ({ order }) => {
         transactionId: paymentIntent.id,
       };
 
-      fetch(`https://secure-bayou-16364.herokuapp.com/order/${_id}`, {
+      fetch(`https://manufacture-website.onrender.com/order/${_id}`, {
         method: "PATCH",
         headers: {
           "content-type": "application/json",

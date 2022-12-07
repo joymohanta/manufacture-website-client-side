@@ -16,7 +16,7 @@ const MyProfile = () => {
       linkedIn: event.target.linkedin.value,
     };
     console.log(detail);
-    fetch(`https://secure-bayou-16364.herokuapp.com/profile`, {
+    fetch(`https://manufacture-website.onrender.com/profile`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

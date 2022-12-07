@@ -4,7 +4,7 @@ import Product from "./Product/Product";
 const Tools = () => {
   const [tools, setTools] = useState([]);
   useEffect(() => {
-    fetch("https://secure-bayou-16364.herokuapp.com/tool")
+    fetch("https://manufacture-website.onrender.com/tool")
       .then((res) => res.json())
       .then((data) => setTools(data));
   }, []);

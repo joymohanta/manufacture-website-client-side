@@ -24,7 +24,7 @@ const Purchase = () => {
       totalQuantity: event.target.quantity.value,
     };
     // console.log(order);
-    fetch("https://secure-bayou-16364.herokuapp.com/order", {
+    fetch("https://manufacture-website.onrender.com/order", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -56,7 +56,7 @@ const Purchase = () => {
   };
 
   useEffect(() => {
-    const url = `https://secure-bayou-16364.herokuapp.com/tool/${id}`;
+    const url = `https://manufacture-website.onrender.com/tool/${id}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setTool(data));

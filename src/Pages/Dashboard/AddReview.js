@@ -14,7 +14,7 @@ const AddReview = () => {
       img: event.target.img.value,
     };
     console.log(feedback);
-    fetch("https://secure-bayou-16364.herokuapp.com/review", {
+    fetch("https://manufacture-website.onrender.com/review", {
       method: "POST",
       headers: {
         "content-type": "application/json",
